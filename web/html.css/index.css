@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NeueHaasGroteskText Pro';
+}
+body{
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.8);
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+img {
+    border: none;
+        
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+
+/* ------------------------------ NAV_HEAD ----------------------------------------- */
+
+.container {
+    width: 85%;
+    margin: auto;   
+    position: relative;
+}
+.head {
+    width: 85%;
+    padding: 40px 0 30px 0;
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+    
+}
+.nav_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.nav_menu, .nav_more {
+    width: 35%;
+    
+}
+.nav_logo {
+    width: 30%;
+    text-align: center;
+}
+.nav_logo img {
+    width: 250px;
+    margin:  auto;
+}
+.nav_menu_item {
+    margin-right: 40px;
+}
+.nav_more_item {
+    float: right;
+    margin-left: 40px;
+}
+
+/* ------------------------------ NEW_PRODUCT ----------------------------------------- */
+
+.content_container {
+    padding-top: 150px;
+}
+.new_product {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.new_product img {
+    position: relative;
+    width: 100%;
+}
+
+.content_container  {
+    margin: 30px 0;
+}
+
+.content_new_product_container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.content_new_product {
+    width: 70%;
+    height: 70%;
+}
+
+.new_product_title {
+    font-size: 100px;
+    margin: 30px 0;
+    line-height: 1.1;
+    font-family: 'stangith';
+}
+
+/* ------------------------------ BTN ----------------------------------------- */
+
+
+.btn {
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+/* ------------------------------ WHAT WE DO ----------------------------------------- */
+
+.what_we_do_container {
+    width: 100%;
+}
+
+.what_we_do {
+    width: 60%;
+    margin:  140px auto;
+    display:  flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.what_we_do_title {
+    font-size: 80px;
+    font-family: 'stangith';
+    margin: 30px auto;
+}
+
+.what_we_do_content {
+    width: 80%;
+    margin: 30px auto;
+    font-size: 23px;
+    color: rgb(0, 0, 0, 0.6);
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* ------------------------------ Featured Collections ----------------------------------------- */
+
+.featured_collections {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 20px 0;
+}
+
+.featured_collections img {
+ 
+    width: 100%;
+}
+
+.featured_collections_content_container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.featured_collections_title {
+    font-size: 80px;
+    font-family: 'stangith';
+    margin: 40px auto;
+}
+
+.featured_collections_product_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+
+.featured_collections_product {
+    width: 21%;
+}
+/* ================================= Product ================================ */
+.featured_collections_product_title, .popular_collection_product_title {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'NeueHaasGroteskText Pro';
+    margin: 30px 0 10px;
+    text-align: center;
+}
+
+.featured_collections_product_price, .popular_collection_product_price {
+    font-size: 20px;
+    font-family: 'NeueHaasGroteskText Pro';
+    margin: 0 0 10px;
+    text-align: center;    
+    color: rgb(0, 0, 0, 0.6);
+}
+
+/* ------------------------------ Popular Collection ----------------------------------------- */
+
+.popular_collection {
+    width: 100%;
+}
+
+
+.popular_collection_title {
+    font-size: 80px;
+    font-family: 'stangith';
+    margin: 150px auto 75px;
+    text-align: center;
+}
+
+.popular_collection_product_container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    
+}
+
+.popular_collection_product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.popular_collection img {
+    width: 90%;
+    margin: 50px 5% 0;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+
+.popular_collection_product_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------ True Story ----------------------------------------- */
+
+.true_story {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.true_story_image {
+    width: 100%;
+}
+
+.true_story_content_image {
+    height: 100%;
+}
+
+.true_story_content_container {
+    position: absolute;
+    height: 65%;
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.true_story_content_image img {
+    height: 100%;
+}
+
+.true_story_content {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.true_story_content_description {
+    margin: 60px 0;
+    line-height: 2.3;
+    font-weight: 700;
+
+}
+
+.true_story_content_title {
+    font-size: 27px;
+    font-family: 'stangith';
+}
+
+.true_story_content_sign {
+   display: flex;
+}
+
+.true_story_content_name {
+    font-size: 35px;
+    font-family: 'stangith';
+}
+.true_story_content_location {
+    font-size: 13px;
+    margin-top: 23px ;
+    margin-left: 50px;
+}
+
+/* ------------------------------ Footer ----------------------------------------- */
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 100px 0;
+    color: white;
+    font-size: 17px;
+}
+
+.footer_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_container img {
+    width: 100%;
+}
+
+.footer_content {
+    width: 80%;
+    position: absolute;   
+}
+
+.footer_content_container {
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 30% 30% 30% 25%;
+    margin: 0  0 200px 0;
+}
+
+.footer_logo img {
+    width: 50%;
+}
+
+.footer_description {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255, 0.3);
+}
+
+.footer_item .item {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.item_line {
+    height: 1px;
+    width: 50%;
+    background-color: rgb(255, 255, 255, 0.3);
+    position: relative;
+    transform: translateY(13px);
+}
+
+.item-icon i {
+    font-size: 23px;
+    margin-right: 17px ;
+    cursor: pointer;
+}
+
+
+/* ================================== Drag drop ==================================== */
+
+.shop_fixed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    color: rgb(104, 104, 104);
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 25% ;
+    border: 1px solid rgb(242,247,249);
+    z-index: 1;   
+}
+
+.shop_fixed_left {
+    bottom: 20px;
+    left: 20px;    
+    
+}
+.shop_fixed_right {
+    bottom: 20px;
+    right: 20px;    
+    
+}
+
+

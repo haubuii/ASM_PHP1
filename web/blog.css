@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NeueHaasGroteskText Pro';
+}
+body{
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.8);
+    background-image:rgb(244, 227, 242,0.5);
+    height: 100vh ;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+/* ------------------------------ NAV_HEAD ----------------------------------------- */
+
+.container_nav {
+    width: 85%;
+    margin: 40px auto;
+}
+.head {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.nav_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto  
+}
+
+.nav_menu, .nav_more {
+    width: 35%;
+    
+}
+.nav_logo {
+    width: 30%;
+    text-align: center;
+}
+.nav_logo img {
+    width: 250px;
+    margin:  auto;
+}
+.nav_menu_item {
+    margin-right: 40px;
+}
+.nav_more_item {
+    float: right;
+    margin-left: 40px;
+}
+
+
+
+/* ======================================== Blog ============================================= */
+
+.form_blog_container {
+    width: 85%;
+    margin: auto;
+}
+
+

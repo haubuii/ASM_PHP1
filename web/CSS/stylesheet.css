@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'NeueHaasGroteskText Pro';
+    src: url('../Font/NHaasGroteskTXPro-55Rg.woff2') format('woff2'),
+        url('../Font/NHaasGroteskTXPro-55Rg.woff') format('woff'),
+        url('../Font/NHaasGroteskTXPro-55Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueHaasGroteskText Pro';
+    src: url('../Font/NHaasGroteskTXPro-75Bd.woff2') format('woff2'),
+        url('../Font/NHaasGroteskTXPro-75Bd.woff') format('woff'),
+        url('../Font/NHaasGroteskTXPro-75Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NeueHaasGroteskText Pro Md';
+    src: url('../Font/NHaasGroteskTXPro-65Md.woff2') format('woff2'),
+        url('../Font/NHaasGroteskTXPro-65Md.woff') format('woff'),
+        url('../Font/NHaasGroteskTXPro-65Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'stangith';
+    src: url('../Font/stangith.woff2') format('woff2'),
+        url('../Font/stangith.woff') format('woff'),
+        url('../Font/stangith.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'stangith';
+    src: url('../Font/stangith_1.woff2') format('woff2'),
+        url('../Font/stangith_1.woff') format('woff'),
+        url('../Font/stangith_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
