@@ -36,6 +36,7 @@
     $sql_category = "SELECT * FROM category";
     $query_category = mysqli_query($connect, $sql_category);
     include_once 'sanpham/validation_product.php';
+    // asdas
 
     if(isset($_POST['btn_them']) && empty($errors)){
         $name = $_POST['product_name'];
